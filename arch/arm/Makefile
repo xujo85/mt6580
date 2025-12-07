@@ -289,7 +289,7 @@ archprepare:
 bzImage: zImage
 
 BOOT_TARGETS	= zImage Image xipImage bootpImage uImage
-INSTALL_TARGETS	= zinstall uinstall install
+INSTALL_TARGETS	= uinstall install
 
 PHONY += bzImage $(BOOT_TARGETS) $(INSTALL_TARGETS)
 

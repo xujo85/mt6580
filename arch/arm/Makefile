@@ -278,6 +278,7 @@ endif
 
 all:	$(notdir $(KBUILD_IMAGE))
 
+zinstall: 
 
 archheaders:
 	$(Q)$(MAKE) $(build)=arch/arm/tools uapi

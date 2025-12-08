@@ -21,7 +21,7 @@ endif
 PHYS_OFFSET := $(CONFIG_PHYS_OFFSET)
 export ZRELADDR PARAMS_PHYS PHYS_OFFSET
 
-targets := Image zImage xipImage bootpImage uImage
+targets := Image xipImage bootpImage uImage
 
 ifeq ($(CONFIG_XIP_KERNEL),y)
 
